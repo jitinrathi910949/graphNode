@@ -1,0 +1,22 @@
+{
+    "server":{
+        "corsOptions": {
+            "origin": "*",
+            "methods": "GET,PUT,POST,OPTIONS",
+            "allowedHeaders": "Content-Type,Authorization,email,password,x-document-type,x-document-name,x-document-subtype,x-document-number",
+            "credentials": true,
+            "optionsSuccessStatus": 200
+        },
+        "httpPort": "3200",
+        "sslEnabled": false
+    },
+
+    "db": {
+        "user": "me",
+        "host": "localhost",
+        "database": "graphproj",
+        "password": "password",
+        "port": 5432
+    }
+    }
+
